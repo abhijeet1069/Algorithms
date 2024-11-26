@@ -29,7 +29,7 @@
   		<artifactId>algs4</artifactId>
   		<version>1.0</version>
   		<scope>system</scope>
-    	<systemPath>C:\Personal\CS\Algorithms\DSA\algorithm/lib/algs4.jar</systemPath>
+    	<systemPath>C:\Personal\CS\Algorithms\DSA\algorithm\lib\algs4.jar</systemPath>
 	</dependency>
 
   </dependencies>
