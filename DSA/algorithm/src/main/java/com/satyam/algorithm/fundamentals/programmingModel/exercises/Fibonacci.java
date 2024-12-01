@@ -12,7 +12,7 @@ public class Fibonacci {
 		return F(N-1)+F(N-2);
 	}
 	
-	//Not space optimised but went till 100 in a button click
+	//Not space optimized but went till 100 in a button click
 	public static long Fib(int N) {
 		long[] arr = new long[N+1];
 		if(N == 0)
