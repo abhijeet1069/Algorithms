@@ -20,7 +20,7 @@ bool contains(int array[10], int value)
 
 ## Methods to Denest
 
-- Extraction
+- Extraction 
     - Pull out part of the function to a new function
 
 - Inversion
