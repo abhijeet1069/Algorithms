@@ -1,6 +1,6 @@
 # LeetCode
 
-## Practising Effectively
+## Practicing Effectively
 
 https://leetcode.com/discuss/study-guide/2009997/How-to-get-started-with-DSA-and-practice-Leetcode-Efficiently
 
