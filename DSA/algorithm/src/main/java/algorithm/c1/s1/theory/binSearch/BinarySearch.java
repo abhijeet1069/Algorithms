@@ -27,10 +27,10 @@ public class BinarySearch {
 		File whitelistFile = new File(fileName);
 		In in = new In(whitelistFile);
         int[] arr = in.readAllInts();
-		System.out.println("readAllInts():: "+fileName);
-		for(int num : arr)
-			System.out.print(num+" ");
-		System.out.println();
+//		System.out.println("readAllInts():: "+fileName);
+//		for(int num : arr)
+//			System.out.print(num+" ");
+//		System.out.println();
 		return arr;
 	}
 	
