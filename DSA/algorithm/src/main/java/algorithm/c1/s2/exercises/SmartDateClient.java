@@ -79,7 +79,7 @@ class SmartDate{
 
 public class SmartDateClient {
     public static void main(String[] args) {
-        SmartDate date = new SmartDate("12/04/2028");
+        SmartDate date = new SmartDate("27/01/2015");
         StdOut.println(date);
         StdOut.println(date.getDayOfWeek());
     }

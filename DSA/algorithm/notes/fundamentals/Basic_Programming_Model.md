@@ -25,4 +25,11 @@ GCD of 2 numbers using Euclid's algorithm
 
 ## Histogram
 
-Contructing a histogram using algs4 library
+Constructing a histogram using algs4 library
+
+## Random Connections
+
+Plot of N equally spaced dots of size .05 on the circumference of a circle, and then, with probability p for each pair 
+of points, draws a gray line connecting them. This was a beautiful picture.
+
+![Random connections](./img/RandomConnections.jpg)
