@@ -9,11 +9,14 @@ Algorithm:
 1. Guess a first approximation to a solution of the equation $ f(x) = 0 $ . Graph may help.
 2. Use the first approximation to get the next approximation
 
-$
-x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-$
+```math
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
 
-For square root we use $ x^2-c = 0$
+For square root we use 
+
+x^2-c = 0
+```
+
 
 ## Binary Search
 
