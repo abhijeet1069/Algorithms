@@ -10,13 +10,13 @@ Algorithm:
 2. Use the first approximation to get the next approximation
 
 ```math
-x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+```
+For square root we use
 
-For square root we use 
-
+```math
 x^2-c = 0
 ```
-
 
 ## Binary Search
 

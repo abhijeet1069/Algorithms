@@ -39,7 +39,7 @@ Suppose we set our Java process heap size as 6 GB, will it go beyong 6 GB?
     - JNI : For connecting C/C++ code to Java
     - Miscellaneous : Depends on JVM vendor, for optimisation.
 
-    ![Java memory regions](JMM.png)
+  ![Java memory regions](pic/JMM.png)
     
 ## How to know the type of OutOfMemoryError?
 
@@ -53,9 +53,9 @@ Most common memory error. It is mostly caused by:
 
 A healthy app will mostly have a 0 slope for dotted line. While a memory leak app will have a psoitive slope.
 
- ![Healthy app](Healthy_App.png)
+ ![Healthy app](pic/Healthy_App.png)
 
- ![Memory leaked app](Memory_Leak_App.png)
+ ![Memory leaked app](pic/Memory_Leak_App.png)
 
  ### References
 
@@ -110,7 +110,7 @@ We can see stacktrace and check this error.
 
 Happens when we use too many 3rd party frameworks or load too many classes.
 
- ![Memory leaked app](Metaspace_memory_leak.png)
+![Memory leaked app](pic/Metaspace_memory_leak.png)
 
  Artifacts : java {app_name} -Xlog:class+lod=info:<filename>
 

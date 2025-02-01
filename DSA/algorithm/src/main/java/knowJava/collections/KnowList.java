@@ -1,4 +1,4 @@
-package algorithm.c1.s1.theory.collections;
+package knowJava.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;

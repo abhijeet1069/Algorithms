@@ -1,4 +1,4 @@
-package com.satyam.memoryLeak;
+package knowJava.memoryLeak;
 
 public class VehiclePOJO {
 	String name;

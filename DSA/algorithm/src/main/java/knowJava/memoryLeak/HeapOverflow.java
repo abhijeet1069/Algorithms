@@ -1,4 +1,4 @@
-package com.satyam.memoryLeak;
+package knowJava.memoryLeak;
 
 import java.util.ArrayList;
 import java.util.List;
