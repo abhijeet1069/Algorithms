@@ -1,8 +1,6 @@
 package algorithm.c1.s1.exercises;
 import edu.princeton.cs.algs4.StdDraw;
 
-import java.awt.*;
-
 public class Histogram {
 	public static void main(String[] args) {
 		int[] arr = new int[]{2,7,8,12,14,16,18,19,23,26,28,30};
