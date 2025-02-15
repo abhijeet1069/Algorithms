@@ -37,15 +37,6 @@
         <version>1.9.0</version> <!-- Replace with the latest stable version -->
         <scope>test</scope>
     </dependency>
-    
-    <dependency>
-  		<groupId>edu.princeton.cs.algs4</groupId>
-  		<artifactId>algs4</artifactId>
-  		<version>1.0</version>
-  		<scope>system</scope>
-    	<systemPath>/Users/satyam/Personal/CS/Algorithms/DSA/algorithm/lib/algs4.jar</systemPath>
-	</dependency>
-
   </dependencies>
   
   <build>

@@ -18,7 +18,11 @@ bool contains(int array[10], int value)
 
 ```
 
-## Methods to Denest
+## Linux kernel style guide
+
+If you need more than 3 levels of indentation, you're screwed anyway and should fix your program.
+
+## Methods to De-nest
 
 - Extraction 
     - Pull out part of the function to a new function
@@ -26,6 +30,3 @@ bool contains(int array[10], int value)
 - Inversion
     - Flipping conditions and switching to an early return
 
-## Linux kernel style guide
-
-If you need more than 3 levels of indentation, you're screwed anyway and should fix your program.
