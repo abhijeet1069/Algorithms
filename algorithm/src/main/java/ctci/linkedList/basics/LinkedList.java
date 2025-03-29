@@ -1,23 +1,13 @@
-package ctci.linkedList;
-
-class Node{
-    int data;
-    Node next;
-
-    public Node(int d){
-        this.data = d;
-        this.next = null;
-    }
-}
+package ctci.linkedList.basics;
 
 public class LinkedList {
     Node head;
 
-    LinkedList(int data){
+    public LinkedList(int data){
         this.head = new Node(data);
     }
 
-    void appendToTail(int data){
+    public void add(int data){
         Node end = new Node(data);
         Node temp = head;
         while(temp.next != null){
@@ -26,25 +16,28 @@ public class LinkedList {
         temp.next = end;
     }
 
-    void print(){
+    public void print() {
         Node temp = this.head;
         System.out.println();
-        while(temp != null){
-            System.out.print(temp.data+" ");
+        while (temp != null) {
+            System.out.print(temp.data + " ");
             temp = temp.next;
         }
     }
 
-    public static void main(String[] args) {
-        LinkedList list = new LinkedList(1);
-        list.appendToTail(1);
-        list.appendToTail(2);
-        list.appendToTail(3);
-        list.appendToTail(5);
-        list.appendToTail(8);
-        list.appendToTail(13);
-        list.appendToTail(21);
+    public void deleteNode(int data){
+        Node temp = head;
+        if(temp.data == data)
+            head = head.next;
 
-        list.print();
+        while(temp.next != null){
+            if(temp.next.data == data){
+                temp.next = temp.next.next;
+            }
+            temp = temp.next;
+        }
+    }
+    public Node getHead() {
+        return head;
     }
 }

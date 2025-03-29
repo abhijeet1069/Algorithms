@@ -1,4 +1,4 @@
-package bigO.exercises;
+package ctci.bigO.exercises;
 
 public class PerfectSquare {
 

@@ -1,4 +1,4 @@
-package bigO.theory;
+package ctci.bigO.theory;
 
 public class CheckPrime {
 
