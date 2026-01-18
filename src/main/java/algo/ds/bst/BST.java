@@ -1,4 +1,4 @@
-package skeina.ds.bst;
+package algo.ds.bst;
 
 public class BST<T extends Number & Comparable<T>> {
 

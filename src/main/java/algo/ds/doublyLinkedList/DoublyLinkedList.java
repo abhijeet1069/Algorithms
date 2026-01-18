@@ -1,4 +1,4 @@
-package skeina.ds.doublyLinkedList;
+package algo.ds.doublyLinkedList;
 
 public class DoublyLinkedList<T extends Comparable<T>> {
 

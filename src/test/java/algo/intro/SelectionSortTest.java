@@ -1,4 +1,4 @@
-package skeina.intro;
+package algo.intro;
 
 import org.junit.jupiter.api.Test;
 

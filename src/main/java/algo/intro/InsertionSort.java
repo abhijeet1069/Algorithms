@@ -1,4 +1,4 @@
-package skeina.intro;
+package algo.intro;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package skeina.ds.priorityQueue;
+package algo.ds.priorityQueue;
 
 import java.util.Arrays;
 import java.util.Comparator;

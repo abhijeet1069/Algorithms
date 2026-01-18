@@ -1,4 +1,4 @@
-package skeina.ds.singlyLinkedList;
+package algo.ds.singlyLinkedList;
 
 public class LinkedList {
 	

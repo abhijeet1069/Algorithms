@@ -1,4 +1,4 @@
-package skeina.intro;
+package algo.intro;
 
 public class MatrixMultiplication {
 	public static int[][] multiply(int[][] a, int[][] b){

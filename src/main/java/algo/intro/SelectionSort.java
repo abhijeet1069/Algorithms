@@ -1,4 +1,4 @@
-package skeina.intro;
+package algo.intro;
 
 /**
  * Running time complexity = O(n^2)
