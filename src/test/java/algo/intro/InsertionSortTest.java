@@ -1,5 +1,6 @@
 package algo.intro;
 
+import algo.intro.textbook.InsertionSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
