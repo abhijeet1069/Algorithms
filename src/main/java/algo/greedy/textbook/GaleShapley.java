@@ -2,7 +2,8 @@ package algo.greedy.textbook;
 
 import java.util.*;
 
-// Invariant : Women improves
+// Invariant : Women improves his preference with each proposal
+
 public class GaleShapley {
 
     public static Map<String, String> stableMatching(

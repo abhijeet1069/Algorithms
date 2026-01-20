@@ -4,7 +4,7 @@
 
 Algorithm Design by Jon Kleinberg and Eva Tardos
 
-## Leetcode
+## LeetCode
 
 - Arrays (32 easy, 16 medium, 2 hard)
 - Strings (31 easy, 6 medium)
