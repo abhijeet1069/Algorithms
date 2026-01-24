@@ -1,6 +1,6 @@
 package algo.stack.leetcode;
 
-import leetcode.stack.helper.TreeNode;
+import algo.stack.leetcode.helper.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

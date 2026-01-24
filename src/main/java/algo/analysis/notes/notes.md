@@ -2,9 +2,9 @@
 
 ## Asymptotic Notations
 
-- Big O : f(n) = O(g(n)) means f(n) <= c.g(n)
-- Big Omega : f(n) = Ω(g(n)) means f(n) ≥ c.g(n) for all n ≥ n0 
-- Big Theta : f(n) = Θ(g(n)) means c2.g(n)<= f(n) <=c1·g(n)  for all n ≥ n0.
+- Big O : f(n) = O(g(n)) means f(n) <= c.g(n) , asymptotic upper bound or worst case
+- Big Omega : f(n) = Ω(g(n)) means f(n) ≥ c.g(n) for all n ≥ n0 , lower bound
+- Big Theta : f(n) = Θ(g(n)) means c2.g(n)<= f(n) <=c1·g(n)  for all n ≥ n0. , tight bound
 
 ![running time](runningTime.png)
 
