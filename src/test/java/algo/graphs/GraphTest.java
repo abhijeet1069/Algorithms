@@ -11,7 +11,7 @@ class GraphTest {
 
     @Test
     void testaddEdge() {
-        Graph g = new Graph();
+        Graph<Integer> g = new Graph<>();
         g.addEdge(1,2);
         g.addEdge(1,3);
         g.addEdge(2,4);
