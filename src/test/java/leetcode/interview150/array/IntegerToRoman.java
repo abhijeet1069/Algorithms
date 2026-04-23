@@ -9,7 +9,8 @@ public class IntegerToRoman {
         String[] hrns = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
         String[] ths ={"","M","MM","MMM"};
 
-        return new StringBuilder().append(ths[num/1000])
+        return new StringBuilder()
+                .append(ths[num/1000])
                 .append(hrns[(num%1000)/100])
                 .append(tens[(num%100)/10])
                 .append(ones[num%10])
